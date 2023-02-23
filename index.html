@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title id="title">Codey Ma, Personal Website</title>
+    <meta name="author" content="Codey Ma">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        let d = new Date();
+        alert("The date is " + d);
+    </script>
+  </head>
+
+  <body>
+    <div> 
+        <div class="container_flex"> <!-- table of contents on top -->
+            <div class="item-5">Codey Ma</div>
+            <br>
+            <div class="item item-1">About</div>
+            <div class="item item-2">Work</div>
+            <div class="item item-3">Contact</div>
+        </div>
+    </div>
+    <br>
+    <div class="container_grid"> <!-- container-->
+        <div class="container_grid_third"> <!-- left column -->
+            <img src="Potrait.png" style="width: 100%" alt="img of Codey">
+            
+        </div>
+        <div class="container_grid_twothird"> <!-- right column -->
+            <div class="item horiz">
+                <h1 id="color-it"><center>About</center></h1>
+                <h4>Hello! My name is Codey Ma and this is my website! I am a first-year student from Southern California intending to double major in computer science and data science. I enjoy listening to music, watching movies and tv shows, playing badminton, and sleeping in. </h4>
+                <h2 id="color-it"><center>Work</center></h2>
+                <h5>Clubs </h5>
+                <ul>Badminton Club</ul>
+                <h5>Classes </h5>
+                <ul>Computer Science 61A</ul>
+                <ul>Data C8</ul>
+                <h6>I am trying to learn more to buff this part up as it is quite empty :)</h6>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div class="container_grid_contact">
+        <h1 id="color-it"><center>Contacts</center></h1>
+        <h3>Social Media: </h3>
+        <p>Instagram: @codeyma_ </p>
+        <p>Email: cm.1@berkeley.edu</p>
+        <h3>Check me out on spotify!</h3>
+        <a href="https://open.spotify.com/user/codeyma8?si=9d1893bf74974167"> 
+            <button>Check it out! </button>
+        </a>
+        <br>
+        <form>
+            <label>Rate my Spotify Playlists out of 10:</label>
+            <input type="text">
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+        <h6>Sorry my Spotify is not that good :( </h6>
+
+        <h3 id="color-it"><center>ALERT</center></h3>
+        <button onclick = "func()"> ALERT! ALERT! ALERT!</button>
+        <script>
+            function func() {
+                alert("Did I scare ya?")
+            }
+        </script>
+        <br>
+    </div>
+    
+ </body>
+</html>
